@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Real Help RH favicon">
+  <defs>
+    <linearGradient id="bg" x1="8" x2="56" y1="6" y2="58" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1f587a"/>
+      <stop offset="1" stop-color="#12324a"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#bg)"/>
+  <path d="M10 21 32 9l22 12v8L32 17 10 29Z" fill="#ef7d32"/>
+  <text x="32" y="49" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="31" font-weight="900" letter-spacing="-3" fill="#fff">RH</text>
+  <path d="M20 53h24" stroke="#ef7d32" stroke-width="4" stroke-linecap="round"/>
+</svg>

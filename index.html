@@ -1,0 +1,2244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
+  <title>Real Help | Trusted Handyman Services in Tucson AZ</title>
+
+  <!-- SEO Meta -->
+  <meta name="description" content="Real Help LLC provides fast, reliable handyman services in Tucson, Marana, Oro Valley, Vail, and surrounding Arizona areas. Free estimates available.">
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+  <meta name="googlebot" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+  <meta name="theme-color" content="#173f5f">
+  <meta name="format-detection" content="telephone=yes">
+  <link rel="canonical" href="https://realhelpazllc.com/">
+
+  <!-- Open Graph -->
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Real Help | Trusted Handyman Services in Tucson AZ">
+  <meta property="og:description" content="Fast, reliable handyman services in Tucson, Marana, Oro Valley, Vail, and surrounding Arizona areas. Free estimates available.">
+  <meta property="og:url" content="https://realhelpazllc.com/">
+  <meta property="og:site_name" content="Real Help LLC">
+  <meta property="og:image" content="https://realhelpazllc.com/images/logo.png">
+  <meta property="og:image:alt" content="Real Help LLC logo">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Real Help | Trusted Handyman Services in Tucson AZ">
+  <meta name="twitter:description" content="Fast, reliable handyman services in Tucson, Marana, Oro Valley, Vail, and surrounding Arizona areas. Free estimates available.">
+  <meta name="twitter:image" content="https://realhelpazllc.com/images/logo.png">
+
+  <!-- Hero image is desktop-only for mobile performance. -->
+  <link rel="preload" as="image" href="images/logo-nav.png" fetchpriority="high">
+  <link rel="preload" as="image" href="images/hero-handyman-1200.jpg" media="(min-width: 900px)" fetchpriority="high">
+
+  <!-- Favicon -->
+  <link rel="icon" href="/favicon.svg?v=rh2" type="image/svg+xml">
+  <link rel="icon" href="/favicon.ico?v=rh2" type="image/x-icon">
+  <link rel="shortcut icon" href="/favicon.ico?v=rh2" type="image/x-icon">
+  <link rel="apple-touch-icon" href="/images/apple-touch-icon.png?v=rh2">
+
+  <style>
+    :root {
+      --ink: #182126;
+      --slate: #41515b;
+      --paper: rgba(255, 255, 255, 0.88);
+      --white: #ffffff;
+      --brand: #173f5f;
+      --brand-2: #2f6f73;
+      --accent: #ef7d32;
+      --accent-2: #f7b267;
+      --section-width: 1180px;
+      --shadow: 0 22px 60px rgba(18, 29, 37, 0.16);
+      --font-body: "Trebuchet MS", "Segoe UI", sans-serif;
+      --font-display: "Arial Black", "Trebuchet MS", "Segoe UI", sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      -webkit-text-size-adjust: 100%;
+    }
+
+    body {
+      font-family: var(--font-body);
+      color: var(--ink);
+      background:
+        radial-gradient(circle at top left, rgba(247, 178, 103, 0.28), transparent 28%),
+        radial-gradient(circle at top right, rgba(47, 111, 115, 0.18), transparent 26%),
+        linear-gradient(180deg, #f7f2ea 0%, #fdfbf8 35%, #eef3f1 100%);
+      line-height: 1.6;
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    img {
+      display: block;
+      max-width: 100%;
+    }
+
+    a,
+    button,
+    input,
+    textarea {
+      touch-action: manipulation;
+    }
+
+    .site-shell {
+      position: relative;
+      overflow: hidden;
+    }
+
+    .topbar {
+      background: linear-gradient(90deg, #173f5f, #2f6f73);
+      color: rgba(255, 255, 255, 0.92);
+      text-align: center;
+      padding: 12px 20px;
+      font-size: 0.98rem;
+      line-height: 1.35;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      backdrop-filter: blur(18px);
+      background: rgba(253, 251, 248, 0.88);
+      border-bottom: 1px solid rgba(24, 33, 38, 0.08);
+    }
+
+    .nav-container,
+    .hero-content,
+    section,
+    footer {
+      width: min(var(--section-width), calc(100% - 32px));
+      margin: 0 auto;
+    }
+
+    .nav-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      padding: 14px 0;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      min-width: 0;
+    }
+
+    .logo-mark {
+      background: linear-gradient(145deg, rgba(255, 255, 255, 0.95), rgba(244, 239, 231, 0.86));
+      border: 1px solid rgba(24, 33, 38, 0.08);
+      border-radius: 18px;
+      padding: 10px 14px;
+      box-shadow: 0 12px 30px rgba(24, 33, 38, 0.12);
+    }
+
+    .logo img {
+      height: 66px;
+      width: auto;
+    }
+
+    .logo-copy strong,
+    h1,
+    h2,
+    h3 {
+      font-family: var(--font-display);
+    }
+
+    .logo-copy strong {
+      display: block;
+      font-size: 1rem;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: var(--brand);
+    }
+
+    .logo-copy span {
+      display: block;
+      color: var(--slate);
+      font-size: 0.95rem;
+    }
+
+    .menu {
+      display: flex;
+      align-items: center;
+      gap: 22px;
+      font-weight: 600;
+      color: var(--slate);
+    }
+    .menu a {
+      position: relative;
+      transition: color 0.25s ease;
+    }
+
+    .menu a::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -6px;
+      width: 100%;
+      height: 2px;
+      transform: scaleX(0);
+      transform-origin: left;
+      background: linear-gradient(90deg, var(--accent), var(--accent-2));
+      transition: transform 0.25s ease;
+    }
+
+    .menu a:hover,
+    .menu a:focus-visible {
+      color: var(--brand);
+    }
+
+    .menu a:hover::after,
+    .menu a:focus-visible::after {
+      transform: scaleX(1);
+    }
+
+    .nav-phone {
+      padding: 12px 18px;
+      min-height: 46px;
+      border-radius: 999px;
+      background: var(--brand);
+      color: var(--white);
+      box-shadow: 0 16px 30px rgba(23, 63, 95, 0.25);
+      font-weight: 700;
+      white-space: nowrap;
+      transition: transform 0.2s ease, background 0.2s ease;
+    }
+
+    .nav-phone:hover,
+    .nav-phone:focus-visible {
+      transform: translateY(-2px);
+      background: #204f74;
+    }
+
+    .hamburger {
+      display: none;
+      width: 50px;
+      height: 50px;
+      min-width: 50px;
+      border: 1px solid rgba(24, 33, 38, 0.12);
+      border-radius: 14px;
+      background: rgba(255, 255, 255, 0.72);
+      color: var(--brand);
+      font-size: 1.4rem;
+      cursor: pointer;
+    }
+
+    header.hero-wrap {
+      position: relative;
+      padding: 42px 0 40px;
+    }
+
+    .hero {
+      position: relative;
+      border-radius: 36px;
+      overflow: hidden;
+      background:
+        radial-gradient(circle at top right, rgba(239, 125, 50, 0.36), transparent 34%),
+        linear-gradient(115deg, #102330, #173f5f 58%, #2f6f73);
+      box-shadow: var(--shadow);
+    }
+
+    @media (min-width: 900px) {
+      .hero {
+        background:
+          linear-gradient(115deg, rgba(16, 35, 48, 0.92), rgba(23, 63, 95, 0.8)),
+          url('images/hero-handyman-1200.jpg') center/cover no-repeat;
+      }
+    }
+
+    .hero::before,
+    .hero::after {
+      content: "";
+      position: absolute;
+      border-radius: 999px;
+      opacity: 0.7;
+    }
+
+    .hero::before {
+      width: 360px;
+      height: 360px;
+      top: -140px;
+      right: -70px;
+      background: radial-gradient(circle, rgba(239, 125, 50, 0.48), transparent 68%);
+    }
+
+    .hero::after {
+      width: 320px;
+      height: 320px;
+      bottom: -160px;
+      left: -120px;
+      background: radial-gradient(circle, rgba(247, 178, 103, 0.3), transparent 70%);
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 1;
+      display: grid;
+      grid-template-columns: minmax(0, 1.25fr) minmax(320px, 0.75fr);
+      gap: 34px;
+      align-items: center;
+      padding: 72px 0;
+      color: var(--white);
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 10px 16px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.12);
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      font-size: 0.92rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+
+    .hero-copy h1 {
+      font-size: clamp(2.7rem, 5vw, 5rem);
+      line-height: 0.96;
+      margin-bottom: 18px;
+      max-width: 10ch;
+    }
+
+    .hero-copy p {
+      font-size: 1.18rem;
+      max-width: 56ch;
+      color: rgba(255, 255, 255, 0.84);
+      margin-bottom: 28px;
+    }
+
+    .cta-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin-bottom: 28px;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      padding: 14px 22px;
+      min-height: 50px;
+      border-radius: 999px;
+      font-size: 1rem;
+      font-weight: 700;
+      transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+    }
+
+    .label-desktop {
+      display: inline;
+    }
+
+    .label-mobile {
+      display: none;
+    }
+
+    .btn:hover,
+    .btn:focus-visible {
+      transform: translateY(-2px);
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, var(--accent), var(--accent-2));
+      color: var(--ink);
+      box-shadow: 0 18px 30px rgba(239, 125, 50, 0.28);
+    }
+
+    .btn-outline {
+      border: 1px solid rgba(255, 255, 255, 0.36);
+      background: rgba(255, 255, 255, 0.08);
+      color: var(--white);
+    }
+
+    .hero-points {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .hero-points span {
+      padding: 10px 14px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.16);
+      color: rgba(255, 255, 255, 0.92);
+      font-weight: 600;
+    }
+
+    .hero-panel {
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.16), rgba(255, 255, 255, 0.08));
+      border: 1px solid rgba(255, 255, 255, 0.14);
+      border-radius: 28px;
+      padding: 28px;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 20px 45px rgba(0, 0, 0, 0.18);
+    }
+
+    .hero-panel h2 {
+      font-size: 1.35rem;
+      margin-bottom: 18px;
+    }
+
+    .stat-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+      margin-bottom: 22px;
+    }
+
+    .stat-card {
+      padding: 16px;
+      border-radius: 18px;
+      background: rgba(255, 255, 255, 0.12);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+    }
+    .stat-card strong {
+      display: block;
+      font-family: var(--font-display);
+      font-size: 1.6rem;
+      margin-bottom: 2px;
+    }
+
+    .stat-card a {
+      text-decoration: none;
+      transition: color 0.2s ease, opacity 0.2s ease;
+    }
+
+    .stat-card a:hover,
+    .stat-card a:focus-visible {
+      color: var(--accent-2);
+      opacity: 0.95;
+    }
+
+    .hero-panel ul {
+      list-style: none;
+      display: grid;
+      gap: 12px;
+      color: rgba(255, 255, 255, 0.9);
+    }
+
+    .hero-panel li {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .hero-panel li::before {
+      content: "";
+      width: 10px;
+      height: 10px;
+      border-radius: 999px;
+      background: linear-gradient(135deg, var(--accent), var(--accent-2));
+      box-shadow: 0 0 0 5px rgba(247, 178, 103, 0.16);
+      flex: none;
+    }
+
+    section {
+      position: relative;
+      padding: 72px 0;
+    }
+
+    section > * {
+      position: relative;
+      z-index: 1;
+    }
+
+    #services,
+    #standards,
+    #testimonials,
+    #contact {
+      border-radius: 34px;
+      overflow: hidden;
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+
+    #services {
+      background:
+        radial-gradient(circle at top right, rgba(247, 178, 103, 0.18), transparent 24%),
+        linear-gradient(155deg, rgba(255, 255, 255, 0.58), rgba(248, 243, 235, 0.34));
+    }
+
+    #standards {
+      background:
+        radial-gradient(circle at bottom left, rgba(47, 111, 115, 0.14), transparent 24%),
+        linear-gradient(155deg, rgba(240, 246, 244, 0.7), rgba(255, 255, 255, 0.34));
+    }
+
+    #testimonials {
+      background:
+        radial-gradient(circle at top left, rgba(23, 63, 95, 0.12), transparent 28%),
+        linear-gradient(155deg, rgba(245, 247, 250, 0.74), rgba(255, 255, 255, 0.36));
+    }
+
+    #contact {
+      background:
+        radial-gradient(circle at top right, rgba(247, 178, 103, 0.16), transparent 24%),
+        linear-gradient(155deg, rgba(255, 250, 244, 0.76), rgba(255, 255, 255, 0.42));
+    }
+
+    .section-intro {
+      max-width: 760px;
+      margin-bottom: 34px;
+    }
+
+    .section-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 9px 14px;
+      border-radius: 999px;
+      background: rgba(23, 63, 95, 0.08);
+      color: var(--brand);
+      font-size: 0.86rem;
+      font-weight: 800;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      margin-bottom: 14px;
+      box-shadow: 0 10px 20px rgba(18, 29, 37, 0.05);
+    }
+
+    section h2 {
+      font-size: clamp(2rem, 4vw, 3.2rem);
+      line-height: 1;
+      margin-bottom: 12px;
+    }
+
+    .section-intro p {
+      font-size: 1.08rem;
+      color: var(--slate);
+    }
+
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .service-card {
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.95), rgba(250, 246, 239, 0.9));
+      border: 1px solid rgba(24, 33, 38, 0.08);
+      border-radius: 26px;
+      padding: 28px 24px;
+      box-shadow: 0 18px 45px rgba(18, 29, 37, 0.08);
+      transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+    }
+
+    .service-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 24px 50px rgba(18, 29, 37, 0.14);
+      border-color: rgba(239, 125, 50, 0.32);
+    }
+
+    .service-card:nth-child(3n + 2) {
+      background:
+        radial-gradient(circle at top right, rgba(247, 178, 103, 0.16), transparent 30%),
+        linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(250, 246, 239, 0.92));
+    }
+
+    .service-card:nth-child(3n + 3) {
+      background:
+        radial-gradient(circle at bottom left, rgba(47, 111, 115, 0.12), transparent 28%),
+        linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(241, 246, 244, 0.92));
+    }
+
+    .service-icon {
+      width: 56px;
+      height: 56px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 18px;
+      background: linear-gradient(135deg, rgba(239, 125, 50, 0.16), rgba(247, 178, 103, 0.3));
+      color: var(--accent);
+      font-size: 1.45rem;
+      margin-bottom: 18px;
+    }
+
+    .service-icon svg {
+      width: 28px;
+      height: 28px;
+      stroke: currentColor;
+      fill: none;
+      stroke-width: 1.8;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    .icon-glyph {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      line-height: 1;
+    }
+
+    .btn .icon-glyph,
+    .review-link .icon-glyph,
+    .sticky-call .icon-glyph {
+      font-size: 1rem;
+    }
+
+    .service-card h3 {
+      font-size: 1.25rem;
+      margin-bottom: 8px;
+    }
+
+    .service-card p {
+      color: var(--slate);
+      font-size: 1rem;
+    }
+
+    .about-grid,
+    .contact-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 24px;
+      align-items: stretch;
+    }
+
+    .standards-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    .about-panel,
+    .contact-card,
+    .testimonial,
+    .faq-item {
+      background: var(--paper);
+      border: 1px solid rgba(24, 33, 38, 0.08);
+      border-radius: 28px;
+      box-shadow: 0 18px 48px rgba(18, 29, 37, 0.08);
+      backdrop-filter: blur(12px);
+    }
+
+    .about-panel {
+      padding: 30px;
+    }
+
+    .about-panel:not(.lead) {
+      background:
+        radial-gradient(circle at top right, rgba(247, 178, 103, 0.12), transparent 28%),
+        linear-gradient(155deg, rgba(255, 255, 255, 0.9), rgba(247, 243, 236, 0.78));
+    }
+
+    .about-panel.lead {
+      background: linear-gradient(155deg, rgba(23, 63, 95, 0.96), rgba(47, 111, 115, 0.9));
+      color: var(--white);
+      overflow: hidden;
+      position: relative;
+    }
+
+    .about-panel.lead::after {
+      content: "";
+      position: absolute;
+      inset: auto -50px -80px auto;
+      width: 180px;
+      height: 180px;
+      background: radial-gradient(circle, rgba(247, 178, 103, 0.4), transparent 65%);
+    }
+
+    .about-panel.lead p {
+      color: rgba(255, 255, 255, 0.86);
+      max-width: 52ch;
+    }
+
+    .about-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.12);
+      padding: 10px 14px;
+      margin-bottom: 16px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      font-size: 0.9rem;
+    }
+
+    .feature-list {
+      list-style: none;
+      display: grid;
+      gap: 14px;
+    }
+
+    .feature-list li {
+      display: flex;
+      gap: 14px;
+      align-items: flex-start;
+      color: var(--slate);
+    }
+
+    .feature-list .icon-glyph {
+      margin-top: 3px;
+      color: var(--accent);
+      font-size: 1rem;
+    }
+
+    .standard-card {
+      padding: 24px 22px;
+      border-radius: 24px;
+      background:
+        linear-gradient(180deg, rgba(255, 255, 255, 0.9), rgba(245, 249, 247, 0.78));
+      border: 1px solid rgba(24, 33, 38, 0.08);
+      box-shadow: 0 16px 38px rgba(18, 29, 37, 0.08);
+    }
+
+    .standard-card .icon-glyph {
+      width: 44px;
+      height: 44px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 14px;
+      background: rgba(239, 125, 50, 0.14);
+      color: var(--accent);
+      font-size: 1rem;
+      margin-bottom: 14px;
+    }
+
+    .standard-card .icon-glyph svg {
+      width: 22px;
+      height: 22px;
+      stroke: currentColor;
+      fill: none;
+      stroke-width: 1.8;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    .standard-card h3 {
+      font-size: 1.18rem;
+      margin-bottom: 10px;
+      color: var(--brand);
+    }
+
+    .standard-card p {
+      color: var(--slate);
+      margin: 0;
+    }
+
+    .area-strip {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .area-pill {
+      padding: 12px 18px;
+      border-radius: 999px;
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.92), rgba(245, 240, 231, 0.78));
+      border: 1px solid rgba(24, 33, 38, 0.08);
+      color: var(--brand);
+      font-weight: 700;
+      box-shadow: 0 12px 28px rgba(18, 29, 37, 0.06);
+    }
+
+    .testimonials-wrap {
+      position: relative;
+      min-height: 240px;
+    }
+
+    .testimonial {
+      display: none;
+      padding: 30px;
+      background:
+        radial-gradient(circle at top right, rgba(247, 178, 103, 0.14), transparent 28%),
+        linear-gradient(155deg, rgba(255, 255, 255, 0.92), rgba(246, 248, 251, 0.8));
+    }
+
+    .testimonial.active {
+      display: block;
+      animation: testimonialIn 0.5s ease;
+    }
+
+    .testimonial-rating {
+      color: var(--accent);
+      letter-spacing: 0.14em;
+      margin-bottom: 16px;
+    }
+
+    .testimonial p {
+      font-size: 1.12rem;
+      color: var(--ink);
+      margin-bottom: 14px;
+    }
+
+    .testimonial strong {
+      color: var(--brand);
+      font-size: 0.98rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    .review-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      min-height: 44px;
+      margin-top: 20px;
+      color: var(--brand);
+      font-weight: 700;
+    }
+
+    .review-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin-top: 20px;
+    }
+
+    .review-actions .review-link {
+      margin-top: 0;
+    }
+
+    .testimonial-controls {
+      display: flex;
+      gap: 12px;
+      margin-top: 20px;
+    }
+
+    .testimonial-button {
+      border: 1px solid rgba(24, 33, 38, 0.12);
+      background: rgba(255, 255, 255, 0.82);
+      color: var(--brand);
+      border-radius: 999px;
+      padding: 10px 16px;
+      min-height: 44px;
+      font: inherit;
+      font-weight: 700;
+      cursor: pointer;
+      transition: transform 0.2s ease, background 0.2s ease, border-color 0.2s ease;
+    }
+
+    .testimonial-button:hover,
+    .testimonial-button:focus-visible {
+      transform: translateY(-1px);
+      background: rgba(255, 255, 255, 0.96);
+      border-color: rgba(23, 63, 95, 0.24);
+    }
+
+    .faq-list {
+      display: grid;
+      gap: 16px;
+    }
+
+    .faq-item {
+      padding: 0;
+      overflow: hidden;
+      background:
+        linear-gradient(180deg, rgba(255, 255, 255, 0.9), rgba(249, 245, 238, 0.76));
+    }
+
+    .faq-question {
+      width: 100%;
+      background: none;
+      border: 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+      padding: 22px 24px;
+      font: inherit;
+      font-weight: 700;
+      text-align: left;
+      color: var(--ink);
+      cursor: pointer;
+    }
+
+    .faq-toggle {
+      width: 34px;
+      height: 34px;
+      flex: none;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 999px;
+      background: rgba(239, 125, 50, 0.14);
+      color: var(--accent);
+      font-size: 1.3rem;
+      transition: transform 0.2s ease, background 0.2s ease;
+    }
+
+    .faq-answer {
+      display: none;
+      padding: 0 24px 24px;
+      color: var(--slate);
+    }
+
+    .faq-answer.open {
+      display: block;
+    }
+
+    .faq-item.open .faq-toggle {
+      transform: rotate(45deg);
+      background: rgba(23, 63, 95, 0.12);
+      color: var(--brand);
+    }
+
+    .contact-card {
+      padding: 30px;
+    }
+
+    .contact-card.primary {
+      background: linear-gradient(155deg, rgba(255, 255, 255, 0.94), rgba(244, 239, 231, 0.9));
+    }
+
+    .contact-card.secondary {
+      background: linear-gradient(155deg, rgba(23, 63, 95, 0.95), rgba(47, 111, 115, 0.9));
+      color: var(--white);
+    }
+
+    .contact-card.form-card {
+      background:
+        radial-gradient(circle at top right, rgba(247, 178, 103, 0.24), transparent 34%),
+        radial-gradient(circle at bottom left, rgba(23, 63, 95, 0.08), transparent 28%),
+        linear-gradient(155deg, rgba(255, 255, 255, 0.98), rgba(244, 239, 231, 0.96));
+      color: var(--ink);
+      border: 1px solid rgba(239, 125, 50, 0.22);
+      box-shadow: 0 28px 70px rgba(18, 29, 37, 0.12);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .contact-card.form-card::before {
+      content: "";
+      position: absolute;
+      inset: 0 0 auto 0;
+      height: 5px;
+      background: linear-gradient(90deg, var(--accent), var(--accent-2), var(--brand-2));
+    }
+
+    .form-kicker {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 9px 14px;
+      border-radius: 999px;
+      background: rgba(23, 63, 95, 0.08);
+      color: var(--brand);
+      font-size: 0.86rem;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-bottom: 14px;
+    }
+
+    .contact-card h3 {
+      font-family: var(--font-display);
+      font-size: 1.7rem;
+      line-height: 1.05;
+      margin-bottom: 10px;
+    }
+
+    .trust-strip {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 18px;
+    }
+
+    .trust-pill {
+      padding: 10px 14px;
+      border-radius: 999px;
+      background: rgba(23, 63, 95, 0.07);
+      color: var(--brand);
+      font-size: 0.92rem;
+      font-weight: 700;
+    }
+
+    .contact-card p {
+      color: var(--slate);
+      margin-bottom: 14px;
+    }
+
+    .contact-card.secondary p,
+    .contact-card.secondary li {
+      color: rgba(255, 255, 255, 0.86);
+    }
+
+    .contact-methods {
+      display: grid;
+      gap: 14px;
+      margin-top: 18px;
+    }
+
+    .contact-method {
+      display: flex;
+      gap: 14px;
+      align-items: center;
+      padding: 16px 18px;
+      min-height: 76px;
+      border-radius: 18px;
+      background: rgba(255, 255, 255, 0.78);
+      border: 1px solid rgba(24, 33, 38, 0.08);
+    }
+
+    .contact-method .icon-glyph {
+      width: 42px;
+      height: 42px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 14px;
+      background: rgba(239, 125, 50, 0.14);
+      color: var(--accent);
+      font-size: 1rem;
+    }
+
+    .contact-method strong {
+      display: block;
+      color: var(--brand);
+    }
+
+    .contact-card.secondary ul {
+      list-style: none;
+      display: grid;
+      gap: 12px;
+      margin: 20px 0;
+    }
+
+    .contact-card.secondary li {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+    }
+
+    .contact-card.secondary li::before {
+      content: "";
+      width: 9px;
+      height: 9px;
+      border-radius: 999px;
+      background: var(--accent-2);
+      flex: none;
+    }
+
+    .quote-form {
+      display: grid;
+      gap: 14px;
+      margin-top: 20px;
+    }
+
+    .form-intro {
+      display: grid;
+      gap: 10px;
+      margin-bottom: 8px;
+    }
+
+    .response-promise {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      padding: 12px 14px;
+      border-radius: 16px;
+      background: rgba(23, 63, 95, 0.07);
+      color: var(--brand);
+      font-size: 0.95rem;
+      font-weight: 700;
+    }
+
+    .response-promise .icon-glyph {
+      width: 34px;
+      height: 34px;
+      border-radius: 12px;
+      background: rgba(239, 125, 50, 0.14);
+      color: var(--accent);
+      flex: none;
+    }
+
+    .quote-form label {
+      display: grid;
+      gap: 8px;
+      font-weight: 700;
+      color: var(--ink);
+      letter-spacing: 0.01em;
+      font-size: 0.97rem;
+    }
+
+    .quote-form input,
+    .quote-form textarea {
+      width: 100%;
+      border: 1px solid rgba(23, 63, 95, 0.12);
+      border-radius: 18px;
+      padding: 15px 16px;
+      font: inherit;
+      color: var(--ink);
+      background: rgba(255, 255, 255, 0.98);
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.9);
+      transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+    }
+
+    .quote-form input::placeholder,
+    .quote-form textarea::placeholder {
+      color: rgba(65, 81, 91, 0.72);
+    }
+
+    .quote-form textarea {
+      min-height: 140px;
+      resize: vertical;
+    }
+
+    .quote-form input:focus,
+    .quote-form textarea:focus {
+      outline: none;
+      border-color: rgba(239, 125, 50, 0.5);
+      box-shadow: 0 0 0 4px rgba(247, 178, 103, 0.18);
+      transform: translateY(-1px);
+    }
+
+    .quote-form-row {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+    }
+
+    .quote-form .btn {
+      width: 100%;
+      margin-top: 10px;
+      justify-content: center;
+      font-size: 1.02rem;
+      padding: 16px 22px;
+      box-shadow: 0 20px 34px rgba(239, 125, 50, 0.24);
+    }
+
+    .quote-form .btn:hover,
+    .quote-form .btn:focus-visible {
+      box-shadow: 0 24px 40px rgba(239, 125, 50, 0.3);
+    }
+
+    .submission-reassurance {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 8px;
+    }
+
+    .submission-reassurance span {
+      padding: 9px 12px;
+      border-radius: 999px;
+      background: rgba(23, 63, 95, 0.06);
+      color: var(--brand);
+      font-size: 0.9rem;
+      font-weight: 700;
+    }
+
+    .quote-form-note {
+      font-size: 0.95rem;
+      color: var(--slate);
+      margin-top: 14px;
+      padding-top: 14px;
+      border-top: 1px solid rgba(23, 63, 95, 0.1);
+    }
+
+    .quote-form-note strong {
+      color: var(--brand);
+    }
+
+    .form-status {
+      border-radius: 18px;
+      padding: 13px 15px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      margin-bottom: 12px;
+    }
+
+    .form-status:empty,
+    .field-error:empty {
+      display: none;
+    }
+
+    .form-status.success {
+      background: rgba(40, 167, 69, 0.12);
+      color: #1f6b33;
+      border: 1px solid rgba(40, 167, 69, 0.18);
+    }
+
+    .form-status.error {
+      background: rgba(185, 28, 28, 0.12);
+      color: #8f1d1d;
+      border: 1px solid rgba(185, 28, 28, 0.18);
+    }
+
+    .field-error {
+      color: #8f1d1d;
+      font-size: 0.88rem;
+      font-weight: 600;
+    }
+
+    .success-panel {
+      display: none;
+      margin-top: 18px;
+      padding: 22px 20px;
+      border-radius: 24px;
+      background:
+        radial-gradient(circle at top right, rgba(247, 178, 103, 0.22), transparent 30%),
+        linear-gradient(155deg, rgba(255, 255, 255, 0.98), rgba(237, 247, 240, 0.96));
+      border: 1px solid rgba(40, 167, 69, 0.18);
+      box-shadow: 0 22px 48px rgba(18, 29, 37, 0.1);
+    }
+
+    .success-panel.show {
+      display: block;
+    }
+
+    .success-badge {
+      width: 52px;
+      height: 52px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 18px;
+      background: rgba(40, 167, 69, 0.12);
+      color: #1f6b33;
+      font-size: 1.4rem;
+      font-weight: 800;
+      margin-bottom: 14px;
+    }
+
+    .success-panel h4 {
+      font-family: var(--font-display);
+      font-size: 1.5rem;
+      color: var(--brand);
+      margin-bottom: 8px;
+    }
+
+    .success-panel p {
+      margin-bottom: 10px;
+    }
+
+    footer {
+      width: min(var(--section-width), calc(100% - 32px));
+      margin: 26px auto 40px;
+      padding: 0;
+      color: rgba(255, 255, 255, 0.86);
+      background:
+        radial-gradient(circle at top right, rgba(247, 178, 103, 0.18), transparent 30%),
+        linear-gradient(155deg, #12344d 0%, #173f5f 48%, #102b3d 100%);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 32px;
+      box-shadow: 0 28px 70px rgba(18, 29, 37, 0.18);
+      overflow: hidden;
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 1.15fr 0.9fr 1fr;
+      gap: 20px;
+      padding: 30px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .footer-panel {
+      padding: 0;
+      min-width: 0;
+    }
+
+    .footer-panel h3 {
+      font-size: 0.9rem;
+      margin-bottom: 14px;
+      color: rgba(255, 255, 255, 0.7);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    .footer-panel p,
+    .footer-panel a {
+      color: rgba(255, 255, 255, 0.86);
+      font-size: 0.98rem;
+    }
+
+    .footer-panel p {
+      line-height: 1.68;
+      max-width: 34ch;
+    }
+
+    .footer-brand {
+      display: grid;
+      gap: 16px;
+    }
+
+    .footer-brand-title {
+      font-family: var(--font-display);
+      font-size: 1.55rem;
+      color: var(--white);
+      line-height: 1.05;
+    }
+
+    .footer-brand-note {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      width: fit-content;
+      padding: 9px 14px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      font-size: 0.84rem;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: rgba(255, 255, 255, 0.92);
+    }
+
+    .footer-brand-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .footer-chip {
+      padding: 10px 14px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      font-size: 0.92rem;
+      font-weight: 700;
+      color: rgba(255, 255, 255, 0.9);
+    }
+
+    .footer-links {
+      display: grid;
+      gap: 12px;
+      margin: 0;
+    }
+
+    .footer-link {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 15px 16px;
+      min-height: 58px;
+      border-radius: 18px;
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      font-weight: 700;
+      transition: transform 0.2s ease, background 0.2s ease, border-color 0.2s ease;
+    }
+
+    .footer-link:hover,
+    .footer-link:focus-visible {
+      transform: translateY(-1px);
+      background: rgba(255, 255, 255, 0.12);
+      border-color: rgba(255, 255, 255, 0.2);
+    }
+
+    .footer-link .footer-link-meta {
+      display: block;
+      margin-top: 2px;
+      font-size: 0.86rem;
+      font-weight: 600;
+      color: rgba(255, 255, 255, 0.68);
+    }
+
+    .footer-link-arrow {
+      color: rgba(255, 255, 255, 0.88);
+      font-size: 1rem;
+      flex: none;
+    }
+
+    .footer-bar {
+      text-align: center;
+      padding: 18px 24px 20px;
+      font-size: 0.94rem;
+      color: rgba(255, 255, 255, 0.66);
+    }
+    .sticky-call {
+      position: fixed;
+      right: 18px;
+      bottom: calc(18px + env(safe-area-inset-bottom));
+      z-index: 1001;
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 15px 22px;
+      border-radius: 999px;
+      background: linear-gradient(135deg, var(--accent), var(--accent-2));
+      color: var(--ink);
+      font-weight: 800;
+      box-shadow: 0 18px 40px rgba(239, 125, 50, 0.34);
+      opacity: 0;
+      transform: translateY(24px);
+      pointer-events: none;
+      transition: opacity 0.25s ease, transform 0.25s ease;
+    }
+
+    .sticky-call.show {
+      opacity: 1;
+      transform: translateY(0);
+      pointer-events: auto;
+      animation: pulse 2.4s infinite;
+    }
+
+    .copy-toast {
+      position: fixed;
+      left: 50%;
+      bottom: 28px;
+      transform: translateX(-50%) translateY(16px);
+      background: rgba(24, 33, 38, 0.92);
+      color: var(--white);
+      padding: 12px 18px;
+      border-radius: 999px;
+      font-size: 0.95rem;
+      font-weight: 700;
+      box-shadow: 0 16px 36px rgba(18, 29, 37, 0.22);
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.2s ease, transform 0.2s ease;
+      z-index: 1100;
+    }
+
+    .copy-toast.show {
+      opacity: 1;
+      transform: translateX(-50%) translateY(0);
+    }
+
+    .reveal {
+      opacity: 0;
+      transform: translateY(24px);
+      transition: opacity 0.6s ease, transform 0.6s ease;
+    }
+
+    .reveal.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    @keyframes pulse {
+      0% { box-shadow: 0 0 0 0 rgba(239, 125, 50, 0.35); }
+      70% { box-shadow: 0 0 0 18px rgba(239, 125, 50, 0); }
+      100% { box-shadow: 0 0 0 0 rgba(239, 125, 50, 0); }
+    }
+
+    @keyframes testimonialIn {
+      from {
+        opacity: 0;
+        transform: translateY(8px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @media (max-width: 1024px) {
+      .hero-content,
+      .about-grid,
+      .contact-grid,
+      .standards-grid,
+      .footer-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 820px) {
+      .logo-copy {
+        display: none;
+      }
+
+      .hamburger {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .nav-container {
+        gap: 12px;
+      }
+
+      .nav-phone {
+        padding: 10px 14px;
+        font-size: 0.95rem;
+      }
+
+      .menu {
+        position: absolute;
+        top: calc(100% + 10px);
+        right: 16px;
+        left: 16px;
+        display: none;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0;
+        padding: 14px;
+        border-radius: 24px;
+        background: rgba(255, 255, 255, 0.96);
+        border: 1px solid rgba(24, 33, 38, 0.08);
+        box-shadow: var(--shadow);
+        max-height: calc(100vh - 110px);
+        overflow-y: auto;
+      }
+
+      .menu.open {
+        display: flex;
+      }
+
+      .menu a {
+        display: flex;
+        align-items: center;
+        min-height: 46px;
+        padding: 12px 8px;
+      }
+
+      .menu a::after {
+        display: none;
+      }
+
+      .hero {
+        border-radius: 30px;
+      }
+
+      .hero-content {
+        padding: 54px 0;
+      }
+    }
+
+    @media (max-width: 640px) {
+      .topbar {
+        font-size: 0.82rem;
+        padding: 10px 16px;
+      }
+
+      .nav-container,
+      .hero-content,
+      section,
+      footer {
+        width: min(var(--section-width), calc(100% - 24px));
+      }
+
+      .logo img {
+        height: 54px;
+      }
+
+      .nav-container {
+        gap: 10px;
+      }
+
+      .nav-phone {
+        padding: 10px 12px;
+        font-size: 0.86rem;
+      }
+
+      .hero-copy h1 {
+        font-size: 2.55rem;
+      }
+
+      .label-desktop {
+        display: none;
+      }
+
+      .label-mobile {
+        display: inline;
+      }
+
+      .hero-copy p,
+      .section-intro p,
+      .testimonial p {
+        font-size: 1rem;
+      }
+
+      section {
+        padding: 60px 0;
+      }
+
+      #services,
+      #standards,
+      #testimonials,
+      #contact {
+        padding-left: 18px;
+        padding-right: 18px;
+      }
+
+      .service-card,
+      .about-panel,
+      .contact-card,
+      .testimonial {
+        border-radius: 22px;
+      }
+
+      .stat-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .sticky-call {
+        left: 12px;
+        right: 12px;
+        bottom: calc(12px + env(safe-area-inset-bottom));
+        justify-content: center;
+      }
+
+      .quote-form-row {
+        grid-template-columns: 1fr;
+      }
+
+      .footer-grid {
+        padding: 24px 20px;
+      }
+
+      .footer-bar {
+        padding: 16px 20px 18px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="site-shell">
+    <div class="topbar">Family-owned Tucson handyman service • Mon-Fri, Sat, Sun 7am-7pm</div>
+
+    <nav>
+      <div class="nav-container">
+        <a href="#home" class="logo" aria-label="Real Help home">
+          <span class="logo-mark">
+            <img src="images/logo-nav.png" width="160" height="160" alt="Real Help LLC Handyman Services in Tucson Arizona">
+          </span>
+          <span class="logo-copy">
+            <strong>Real Help LLC</strong>
+            <span>Trusted handyman services in Tucson, AZ</span>
+          </span>
+        </a>
+
+        <button class="hamburger" id="hamburger" aria-expanded="false" aria-controls="menu" aria-label="Toggle navigation">☰</button>
+
+        <div class="menu" id="menu">
+          <a href="#home">Home</a>
+          <a href="#services">Services</a>
+          <a href="#about">About</a>
+          <a href="#testimonials">Reviews</a>
+          <a href="#faq">FAQ</a>
+          <a href="#contact">Contact</a>
+        </div>
+
+        <a href="tel:15209044697" class="nav-phone phone-cta" data-phone="(520) 904-4697">(520) 904-4697</a>
+      </div>
+    </nav>
+
+    <main id="main-content">
+    <header class="hero-wrap" id="home">
+      <div class="hero">
+        <div class="hero-content">
+          <div class="hero-copy">
+            <div class="eyebrow">Local team. Real results.</div>
+            <h1>Handyman work that shows up and gets done right.</h1>
+            <p>From drywall and painting to cleanup, installs, demo, and driveway repair, Real Help brings honest pricing, fast turnaround, and dependable workmanship to homes across Southern Arizona.</p>
+            <div class="cta-buttons">
+              <a href="tel:15209044697" class="btn btn-primary phone-cta" data-phone="(520) 904-4697"><span class="icon-glyph" aria-hidden="true">☎</span><span class="label-desktop">Call (520) 904-4697</span><span class="label-mobile">Call Now</span></a>
+              <a href="#contact" class="btn btn-outline">Get a Free Quote</a>
+            </div>
+            <div class="hero-points">
+              <span>Home repairs</span>
+              <span>Yard cleanup</span>
+              <span>Fast turnaround</span>
+            </div>
+          </div>
+
+          <aside class="hero-panel" aria-label="Company highlights">
+            <h2>Fast facts</h2>
+            <div class="stat-grid">
+              <div class="stat-card"><strong><a href="https://www.google.com/maps/place/Real+Help+LLC" target="_blank" rel="noopener noreferrer">Read Google Reviews</a></strong><span>See what local customers are saying</span></div>
+              <div class="stat-card"><strong>Local Team</strong><span>Tucson-area service</span></div>
+              <div class="stat-card"><strong>Fast Response</strong><span>quick turnaround when available</span></div>
+              <div class="stat-card"><strong>Wide</strong><span>range of repair services</span></div>
+            </div>
+            <ul>
+              <li>General repairs, installs, and punch-list projects</li>
+              <li>Cleanup, junk removal, and demolition support</li>
+              <li>Clear communication from estimate to finish</li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </header>
+    <section id="services" class="reveal">
+      <div class="section-intro">
+        <span class="section-tag">Services</span>
+        <h2>Practical help for the jobs that keep piling up.</h2>
+        <p>Whether you need one fix or a full list knocked out, we handle the kind of home projects that make a big difference once they are finally done well.</p>
+      </div>
+
+      <div class="services-grid">
+        <article class="service-card"><div class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M14 7l3-3 3 3-3 3"/><path d="M13 8l-9 9"/><path d="M3 21l4-1 10-10-3-3L4 17l-1 4z"/></svg></div><h3>General Home Repairs</h3><p>Reliable help for everyday fixes, maintenance, and small projects around the house.</p></article>
+        <article class="service-card"><div class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M14 4l6 6"/><path d="M13 5l-9 9v4h4l9-9"/><path d="M16 8l3 3"/></svg></div><h3>Drywall and Painting</h3><p>Patch, repair, and refresh interior spaces with clean finishes that hold up.</p></article>
+        <article class="service-card"><div class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="2.2"/><path d="M12 3v4"/><path d="M12 17v4"/><path d="M3 12h4"/><path d="M17 12h4"/><path d="M5.6 5.6l2.8 2.8"/><path d="M15.6 15.6l2.8 2.8"/><path d="M18.4 5.6l-2.8 2.8"/><path d="M8.4 15.6l-2.8 2.8"/></svg></div><h3>Fixture and Fan Installation</h3><p>Upgrade lighting, ceiling fans, and other fixtures with a polished final result.</p></article>
+        <article class="service-card"><div class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 4h10"/><path d="M9 4v5a3 3 0 0 0 6 0V4"/><path d="M12 12v8"/><path d="M9 20h6"/></svg></div><h3>Plumbing and Minor Electrical</h3><p>Handle small but important repairs safely and efficiently so your home works like it should.</p></article>
+        <article class="service-card"><div class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M14 4l6 6"/><path d="M13 5l-9 9v5h5l9-9"/><path d="M11 7l6 6"/></svg></div><h3>Demo Specialist</h3><p>Careful tear-out work for remodel prep, damaged materials, and unwanted built-ins.</p></article>
+        <article class="service-card"><div class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 10V7a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v3"/><path d="M6 10h12"/><path d="M7 10v7"/><path d="M17 10v7"/><path d="M7 17h10"/><path d="M9 17v2"/><path d="M15 17v2"/></svg></div><h3>Furniture Assembly</h3><p>Get shelves, desks, and furniture built correctly without losing your weekend to instructions.</p></article>
+        <article class="service-card"><div class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 6h8"/><path d="M10 6l4 12"/><path d="M7 11h8"/><path d="M15 17h4"/><path d="M18 14v6"/></svg></div><h3>Junk Removal</h3><p>Clear out clutter, debris, and unwanted items so you can get your space back.</p></article>
+        <article class="service-card"><div class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 20V9"/><path d="M12 9c0-3 2-5 5-5"/><path d="M12 11c0-2-2-4-4-4"/><path d="M12 13c0-2 2-3 4-3"/><path d="M12 14c0-2-2-3-4-3"/></svg></div><h3>Landscaping Help</h3><p>Cleanups, hauling, and outdoor labor that make your yard feel maintained again.</p></article>
+        <article class="service-card"><div class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="14" rx="1.5"/><path d="M4 10h16"/><path d="M10 5v14"/></svg></div><h3>Cabinet and Flooring Removal</h3><p>Prep kitchens, bathrooms, and living spaces for the next stage of your renovation.</p></article>
+        <article class="service-card"><div class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 15l4-4 4 3 4-5 4 3"/><path d="M4 19h16"/><path d="M6 19v-2"/><path d="M10 19v-2"/><path d="M14 19v-2"/><path d="M18 19v-2"/></svg></div><h3>Gravel and Driveway Repair</h3><p>Smooth out rough areas and restore access with straightforward exterior repair work.</p></article>
+      </div>
+    </section>
+
+    <section id="about" class="reveal">
+      <div class="section-intro">
+        <span class="section-tag">About</span>
+        <h2>Built on honest service, not sales pressure.</h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-panel lead">
+          <div class="about-badge">Why choose Real Help</div>
+          <p>We are a family-owned Tucson handyman business focused on repairs, cleanup, and honest pricing. No shortcuts. No runaround. Just real help when you need it most.</p>
+        </div>
+
+        <div class="about-panel">
+          <ul class="feature-list">
+            <li><span class="icon-glyph" aria-hidden="true">●</span><span>Flexible support for both indoor repairs and outdoor cleanup projects.</span></li>
+            <li><span class="icon-glyph" aria-hidden="true">●</span><span>Dependable local service for Tucson, Marana, Oro Valley, Vail, Sahuarita, and Green Valley.</span></li>
+            <li><span class="icon-glyph" aria-hidden="true">●</span><span>Licensed and insured for added homeowner peace of mind.</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="standards" class="reveal">
+      <div class="section-intro">
+        <span class="section-tag">What To Expect</span>
+        <h2>The kind of service homeowners actually want.</h2>
+        <p>When someone is coming to work on your home, the job itself is only part of the decision. The experience matters too.</p>
+      </div>
+
+      <div class="standards-grid">
+        <article class="standard-card">
+          <span class="icon-glyph" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.2 4.2L19 7.3"/></svg></span>
+          <h3>Clear next steps</h3>
+          <p>You should know whether the job is a fit, what the next step is, and how to keep the project moving.</p>
+        </article>
+        <article class="standard-card">
+          <span class="icon-glyph" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 11l8-6 8 6"/><path d="M6 10.5V20h12v-9.5"/><path d="M10 20v-5h4v5"/></svg></span>
+          <h3>Respect for your home</h3>
+          <p>Occupied homes need practical, respectful work habits, not chaos, confusion, or unnecessary disruption.</p>
+        </article>
+        <article class="standard-card">
+          <span class="icon-glyph" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M14 7l3-3 3 3-3 3"/><path d="M13 8l-9 9"/><path d="M3 21l4-1 10-10-3-3L4 17l-1 4z"/></svg></span>
+          <h3>Real handyman range</h3>
+          <p>From punch lists and repairs to cleanup and tear-out prep, the site makes it easier to tell what kinds of jobs fit.</p>
+        </article>
+        <article class="standard-card">
+          <span class="icon-glyph" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M6.5 4.5h3l1.2 4.1-2 1.8a15 15 0 0 0 4.9 4.9l1.8-2 4.1 1.2v3a1.5 1.5 0 0 1-1.7 1.5A17.3 17.3 0 0 1 5 6.2 1.5 1.5 0 0 1 6.5 4.5z"/></svg></span>
+          <h3>Simple communication</h3>
+          <p>Call, text, email, or send a quote request and get a direct path forward instead of feeling stuck in a generic lead form.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="service-areas" class="reveal">
+      <div class="section-intro">
+        <span class="section-tag">Coverage</span>
+        <h2>Serving homeowners across the Tucson area.</h2>
+        <p>If you are nearby and do not see your neighborhood listed, reach out anyway. We may still be able to help.</p>
+      </div>
+
+      <div class="area-strip" aria-label="Service areas">
+        <span class="area-pill">Tucson</span>
+        <span class="area-pill">Marana</span>
+        <span class="area-pill">Oro Valley</span>
+        <span class="area-pill">Vail</span>
+        <span class="area-pill">Sahuarita</span>
+        <span class="area-pill">Green Valley</span>
+      </div>
+    </section>
+
+    <section id="testimonials" class="reveal">
+      <div class="section-intro">
+        <span class="section-tag">Reviews</span>
+        <h2>Neighbors trust Real Help with the work that matters.</h2>
+      </div>
+
+      <div class="testimonials-wrap">
+        <article class="testimonial active"><div class="testimonial-rating">★★★★★</div><p>"Logan helped with cleaning out our yard. He went above and beyond what we had asked. Very affordable too."</p><strong>Google Review</strong></article>
+        <article class="testimonial"><div class="testimonial-rating">★★★★★</div><p>"Logan Davis, the owner, helped my family out with various projects including building a bathroom, upstairs nook/apartment, and leveling a major area with dirt. He is always working tirelessly anytime he is hired and the finished product always looks amazing."</p><strong>Google Review</strong></article>
+        <article class="testimonial"><div class="testimonial-rating">★★★★★</div><p>"Logan is the owner and is super motivated and helpful. Good honest services. Highly recommend him."</p><strong>Google Review</strong></article>
+      </div>
+
+      <div class="testimonial-controls" aria-label="Testimonial navigation">
+        <button class="testimonial-button" type="button" id="testimonial-prev">Previous</button>
+        <button class="testimonial-button" type="button" id="testimonial-next">Next</button>
+      </div>
+
+      <div class="review-actions">
+        <a href="https://www.google.com/maps/place/Real+Help+LLC" target="_blank" rel="noopener noreferrer" class="review-link"><span class="icon-glyph" aria-hidden="true">★</span> Read Google Reviews</a>
+        <a href="https://g.page/r/CUM-2uXoefU-EAE/review" target="_blank" rel="noopener noreferrer" class="review-link"><span class="icon-glyph" aria-hidden="true">★</span> Leave a Google Review</a>
+      </div>
+    </section>
+
+    <section id="faq" class="reveal">
+      <div class="section-intro">
+        <span class="section-tag">FAQ</span>
+        <h2>Answers before you even have to ask.</h2>
+      </div>
+
+      <div class="faq-list">
+        <div class="faq-item"><button class="faq-question" type="button"><span>Do you offer free estimates?</span><span class="faq-toggle">+</span></button><div class="faq-answer">Yes! We provide free estimates for all handyman jobs.</div></div>
+        <div class="faq-item"><button class="faq-question" type="button"><span>What areas do you serve?</span><span class="faq-toggle">+</span></button><div class="faq-answer">We serve Tucson, Marana, Oro Valley, Vail, Sahuarita, Green Valley, and surrounding areas.</div></div>
+        <div class="faq-item"><button class="faq-question" type="button"><span>Are you licensed and insured?</span><span class="faq-toggle">+</span></button><div class="faq-answer">Yes, Real Help LLC is licensed and insured for your protection.</div></div>
+        <div class="faq-item"><button class="faq-question" type="button"><span>What kinds of jobs are a good fit?</span><span class="faq-toggle">+</span></button><div class="faq-answer">Real Help is a good fit for general repairs, drywall and painting, installs, cleanup, demolition prep, junk removal, yard work, and punch-list style projects around the home.</div></div>
+        <div class="faq-item"><button class="faq-question" type="button"><span>What does minor plumbing or electrical mean?</span><span class="faq-toggle">+</span></button><div class="faq-answer">That usually means smaller repair or replacement tasks that help keep a home functioning, not major system overhauls. If you are unsure whether your project fits, send the details and Real Help can tell you the best next step.</div></div>
+        <div class="faq-item"><button class="faq-question" type="button"><span>What are your hours and response time?</span><span class="faq-toggle">+</span></button><div class="faq-answer">Business hours are Monday through Friday, Saturday, and Sunday from 7am to 7pm. Many inquiries get a same-day response, and most estimate requests are answered within 1 business day as available.</div></div>
+        <div class="faq-item"><button class="faq-question" type="button"><span>How do I book a job?</span><span class="faq-toggle">+</span></button><div class="faq-answer">You can call (520) 904-4697 or email realhelpazllc@gmail.com to schedule.</div></div>
+      </div>
+    </section>
+
+    <section id="contact" class="reveal">
+      <div class="section-intro">
+        <span class="section-tag">Contact</span>
+        <h2>Ready to knock something off the list?</h2>
+        <p>Tell us what you need done and we will help you figure out the fastest next step for a quote.</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-card primary">
+          <h3>Talk to a real person</h3>
+          <p>Reach out with the job details, photos, or your timeline and we will help you figure out whether the project is a fit and what the best next step looks like.</p>
+          <div class="contact-methods">
+            <a class="contact-method phone-cta" href="tel:15209044697" data-phone="(520) 904-4697"><span class="icon-glyph" aria-hidden="true">☎</span><span><strong>(520) 904-4697</strong><span>Best for urgent questions</span></span></a>
+            <a class="contact-method" href="mailto:realhelpazllc@gmail.com"><span class="icon-glyph" aria-hidden="true">✉</span><span><strong>realhelpazllc@gmail.com</strong><span>Best for photos and project details</span></span></a>
+          </div>
+          <div class="trust-strip">
+            <span class="trust-pill">Family-owned</span>
+            <span class="trust-pill">Licensed and insured</span>
+            <span class="trust-pill">Tucson-area service</span>
+          </div>
+        </div>
+
+        <div class="contact-card form-card">
+          <div class="form-kicker">Free estimate request</div>
+          <h3>Request a free estimate</h3>
+          <div class="form-intro">
+            <p>Send the basics here and Real Help can reply with next steps, pricing guidance, or scheduling details.</p>
+            <div class="response-promise"><span class="icon-glyph" aria-hidden="true">✓</span><span>Hours are Mon-Fri, Sat, and Sun from 7am-7pm. Many inquiries get a same-day response, and most estimate requests are answered within 1 business day as available.</span></div>
+          </div>
+          <div data-fs-success class="form-status success"></div>
+          <div data-fs-error class="form-status error"></div>
+          <form class="quote-form" id="quote-form" action="https://formspree.io/f/xaqljrdo" method="POST">
+            <label>
+              Name
+              <input type="text" name="name" autocomplete="name" required data-fs-field>
+              <span class="field-error" data-fs-error="name"></span>
+            </label>
+            <div class="quote-form-row">
+              <label>
+                Email
+                <input type="email" name="email" autocomplete="email" required data-fs-field>
+                <span class="field-error" data-fs-error="email"></span>
+              </label>
+              <label>
+                Phone
+                <input type="tel" name="phone" autocomplete="tel" placeholder="(xxx) xxx-xxxx" maxlength="14" required data-fs-field>
+                <span class="field-error" data-fs-error="phone"></span>
+              </label>
+            </div>
+            <label>
+              City or area
+              <input type="text" name="service_area" autocomplete="address-level2" placeholder="Tucson, Marana, Oro Valley..." required data-fs-field>
+              <span class="field-error" data-fs-error="service_area"></span>
+            </label>
+            <label>
+              Project details
+              <textarea name="project_details" placeholder="Tell us what you need done, timing, and any helpful details." required data-fs-field></textarea>
+              <span class="field-error" data-fs-error="project_details"></span>
+            </label>
+            <input type="hidden" name="_subject" value="New estimate request from Real Help website">
+            <button type="submit" class="btn btn-primary" data-fs-submit-btn>Send Estimate Request</button>
+            <div class="submission-reassurance" aria-label="Estimate request reassurance">
+              <span>No pressure follow-up</span>
+              <span>Direct response path</span>
+            </div>
+          </form>
+          <div class="success-panel" id="quote-success-panel" aria-live="polite">
+            <div class="success-badge" aria-hidden="true">✓</div>
+            <h4>Estimate Request Sent</h4>
+            <p>Thanks, we received your request. Real Help will review the details and reach out as soon as possible.</p>
+            <p>You should hear back with clear next steps, not pressure.</p>
+            <p>Need to talk sooner? Call or text <strong>(520) 904-4697</strong>.</p>
+          </div>
+          <p class="quote-form-note"><strong>Your info is only used to respond to your request.</strong> Prefer email directly? You can still reach us at <a href="mailto:realhelpazllc@gmail.com">realhelpazllc@gmail.com</a>.</p>
+        </div>
+      </div>
+    </section>
+    </main>
+
+    <footer>
+      <div class="footer-grid">
+        <div class="footer-panel">
+          <div class="footer-brand">
+            <div class="footer-brand-note">Licensed and insured</div>
+            <div class="footer-brand-title">Real Help LLC</div>
+            <p>Family-owned Tucson handyman business focused on repairs, cleanup, honest pricing, and clear next steps for homeowners across Southern Arizona.</p>
+            <div class="footer-brand-links">
+              <span class="footer-chip">Mon-Fri, Sat, Sun 7am-7pm</span>
+              <span class="footer-chip">1 business day response</span>
+              <span class="footer-chip">Tucson-area service</span>
+            </div>
+          </div>
+        </div>
+        <div class="footer-panel">
+          <h3>Quick Paths</h3>
+          <div class="footer-links">
+            <a href="https://www.google.com/maps/place/Real+Help+LLC" target="_blank" rel="noopener noreferrer" class="footer-link">
+              <span>
+                <strong>Read Google Reviews</strong>
+                <span class="footer-link-meta">See what local customers are saying</span>
+              </span>
+              <span class="footer-link-arrow" aria-hidden="true">↗</span>
+            </a>
+            <a href="#contact" class="footer-link">
+              <span>
+                <strong>Request an Estimate</strong>
+                <span class="footer-link-meta">Jump straight to the quote form</span>
+              </span>
+              <span class="footer-link-arrow" aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </div>
+        <div class="footer-panel">
+          <h3>Contact</h3>
+          <div class="footer-links">
+            <a href="mailto:realhelpazllc@gmail.com" class="footer-link">
+              <span>
+                <strong>realhelpazllc@gmail.com</strong>
+                <span class="footer-link-meta">Best for photos and project details</span>
+              </span>
+              <span class="footer-link-arrow" aria-hidden="true">↗</span>
+            </a>
+            <a href="tel:15209044697" class="footer-link phone-cta" data-phone="(520) 904-4697">
+              <span>
+                <strong>(520) 904-4697</strong>
+                <span class="footer-link-meta">Call or copy the number</span>
+              </span>
+              <span class="footer-link-arrow" aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bar">© 2026 RealHelpAZ LLC • Family-owned • Licensed and insured</div>
+    </footer>
+  </div>
+
+  <a href="tel:15209044697" class="sticky-call phone-cta" data-phone="(520) 904-4697"><span class="icon-glyph" aria-hidden="true">☎</span><span class="label-desktop">Call (520) 904-4697</span><span class="label-mobile">Call Now</span></a>
+
+  <div class="copy-toast" id="copy-toast" aria-live="polite" aria-atomic="true">Phone number copied</div>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HomeAndConstructionBusiness",
+    "@id": "https://realhelpazllc.com/#business",
+    "name": "Real Help LLC",
+    "url": "https://realhelpazllc.com",
+    "telephone": "+15209044697",
+    "email": "realhelpazllc@gmail.com",
+    "image": "https://realhelpazllc.com/images/logo.png",
+    "description": "Family-owned Tucson handyman business focused on repairs, cleanup, and honest pricing.",
+    "openingHours": ["Mo-Fr 07:00-19:00", "Sa 07:00-19:00", "Su 07:00-19:00"],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Tucson",
+      "addressRegion": "AZ",
+      "addressCountry": "US"
+    },
+    "areaServed": ["Tucson AZ","Marana AZ","Oro Valley AZ","Vail AZ","Sahuarita AZ","Green Valley AZ"],
+    "priceRange": "$$",
+    "sameAs": ["https://www.google.com/maps/place/Real+Help+LLC"]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Do you offer free estimates?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes! We provide free estimates for all handyman jobs."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What areas do you serve?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "We serve Tucson, Marana, Oro Valley, Vail, Sahuarita, Green Valley, and surrounding areas."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Are you licensed and insured?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, Real Help LLC is licensed and insured for your protection."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What kinds of jobs are a good fit?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Real Help is a good fit for general repairs, drywall and painting, installs, cleanup, demolition prep, junk removal, yard work, and punch-list style projects around the home."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What does minor plumbing or electrical mean?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "That usually means smaller repair or replacement tasks that help keep a home functioning, not major system overhauls. If you are unsure whether your project fits, send the details and Real Help can tell you the best next step."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What are your hours and response time?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Business hours are Monday through Friday, Saturday, and Sunday from 7am to 7pm. Many inquiries get a same-day response, and most estimate requests are answered within 1 business day as available."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do I book a job?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "You can call (520) 904-4697 or email realhelpazllc@gmail.com to schedule."
+        }
+      }
+    ]
+  }
+  </script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    window.addEventListener('load', () => {
+      window.setTimeout(() => {
+        const analytics = document.createElement('script');
+        analytics.src = 'https://www.googletagmanager.com/gtag/js?id=G-5MW994XD9K';
+        analytics.async = true;
+        document.head.appendChild(analytics);
+        gtag('js', new Date());
+        gtag('config', 'G-5MW994XD9K');
+      }, 3500);
+    });
+  </script>
+
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const menu = document.getElementById('menu');
+    const menuLinks = menu.querySelectorAll('a');
+
+    hamburger.addEventListener('click', () => {
+      const isOpen = menu.classList.toggle('open');
+      hamburger.setAttribute('aria-expanded', String(isOpen));
+    });
+
+    menuLinks.forEach((link) => {
+      link.addEventListener('click', () => {
+        menu.classList.remove('open');
+        hamburger.setAttribute('aria-expanded', 'false');
+      });
+    });
+
+    const testimonials = document.querySelectorAll('.testimonial');
+    let testimonialIndex = 0;
+    const showTestimonial = (nextIndex) => {
+      testimonials[testimonialIndex].classList.remove('active');
+      testimonialIndex = (nextIndex + testimonials.length) % testimonials.length;
+      testimonials[testimonialIndex].classList.add('active');
+    };
+
+    const testimonialPrev = document.getElementById('testimonial-prev');
+    const testimonialNext = document.getElementById('testimonial-next');
+
+    if (testimonials.length > 1 && testimonialPrev && testimonialNext) {
+      testimonialPrev.addEventListener('click', () => {
+        showTestimonial(testimonialIndex - 1);
+      });
+
+      testimonialNext.addEventListener('click', () => {
+        showTestimonial(testimonialIndex + 1);
+      });
+    }
+
+    const stickyCall = document.querySelector('.sticky-call');
+    const contact = document.getElementById('contact');
+    const phoneCtas = document.querySelectorAll('.phone-cta');
+    const phoneInput = document.querySelector('input[name="phone"]');
+    const copyToast = document.getElementById('copy-toast');
+    const quoteForm = document.getElementById('quote-form');
+    const quoteSuccessPanel = document.getElementById('quote-success-panel');
+    const formSuccessBox = document.querySelector('[data-fs-success]');
+
+    const isMobileViewport = () => window.matchMedia('(max-width: 640px)').matches;
+
+    let toastTimeout;
+
+    const showCopyToast = (message) => {
+      if (!copyToast) return;
+
+      copyToast.textContent = message;
+      copyToast.classList.add('show');
+      clearTimeout(toastTimeout);
+      toastTimeout = setTimeout(() => {
+        copyToast.classList.remove('show');
+      }, 1800);
+    };
+
+    phoneCtas.forEach((link) => {
+      link.addEventListener('click', async (event) => {
+        if (isMobileViewport()) return;
+
+        event.preventDefault();
+        const phoneNumber = link.dataset.phone || '(520) 904-4697';
+
+        try {
+          await navigator.clipboard.writeText(phoneNumber);
+          showCopyToast(`Copied ${phoneNumber}`);
+        } catch (error) {
+          showCopyToast(`Call ${phoneNumber}`);
+        }
+      });
+    });
+
+    const formatPhoneNumber = (value) => {
+      const digits = value.replace(/\D/g, '').slice(0, 10);
+
+      if (!digits) return '';
+      if (digits.length < 4) return `(${digits}`;
+      if (digits.length < 7) return `(${digits.slice(0, 3)}) ${digits.slice(3)}`;
+      return `(${digits.slice(0, 3)}) ${digits.slice(3, 6)}-${digits.slice(6)}`;
+    };
+
+    if (phoneInput) {
+      phoneInput.addEventListener('input', (event) => {
+        event.target.value = formatPhoneNumber(event.target.value);
+      });
+    }
+
+    let contactTop = 0;
+    let stickyTicking = false;
+
+    const refreshContactTop = () => {
+      contactTop = contact ? contact.getBoundingClientRect().top + window.scrollY : 0;
+    };
+
+    const updateStickyCall = () => {
+      if (!contact || !stickyCall) {
+        stickyTicking = false;
+        return;
+      }
+
+      const showButton = window.scrollY > window.innerHeight * 0.55 && window.scrollY < contactTop - 220;
+      stickyCall.classList.toggle('show', showButton);
+      stickyTicking = false;
+    };
+
+    const requestStickyUpdate = () => {
+      if (stickyTicking) return;
+      stickyTicking = true;
+      window.requestAnimationFrame(updateStickyCall);
+    };
+
+    refreshContactTop();
+    window.addEventListener('scroll', requestStickyUpdate, { passive: true });
+    window.addEventListener('resize', () => {
+      refreshContactTop();
+      requestStickyUpdate();
+    });
+    window.addEventListener('load', () => {
+      refreshContactTop();
+      requestStickyUpdate();
+    });
+
+    document.querySelectorAll('.faq-item').forEach((item) => {
+      const question = item.querySelector('.faq-question');
+      const answer = item.querySelector('.faq-answer');
+
+      question.addEventListener('click', () => {
+        const isOpen = answer.classList.toggle('open');
+        item.classList.toggle('open', isOpen);
+      });
+    });
+
+    const reveals = document.querySelectorAll('.reveal');
+
+    if ('IntersectionObserver' in window) {
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.18 });
+
+      reveals.forEach((item) => {
+        if (!item.classList.contains('visible')) {
+          observer.observe(item);
+        }
+      });
+    } else {
+      reveals.forEach((item) => item.classList.add('visible'));
+    }
+
+    window.formspree = window.formspree || function () {
+      (formspree.q = formspree.q || []).push(arguments);
+    };
+
+    formspree('initForm', { formElement: '#quote-form', formId: 'xaqljrdo' });
+
+    const loadFormspree = () => {
+      if (document.querySelector('script[data-formspree-loader]')) return;
+      const script = document.createElement('script');
+      script.src = 'https://unpkg.com/@formspree/ajax@1';
+      script.defer = true;
+      script.dataset.formspreeLoader = 'true';
+      document.body.appendChild(script);
+    };
+
+    if (quoteForm) {
+      quoteForm.addEventListener('focusin', loadFormspree, { once: true });
+      quoteForm.addEventListener('pointerenter', loadFormspree, { once: true });
+      quoteForm.addEventListener('submit', loadFormspree, { once: true });
+    }
+
+    if (quoteForm && quoteSuccessPanel && formSuccessBox) {
+      const successObserver = new MutationObserver(() => {
+        if (formSuccessBox.textContent.trim()) {
+          quoteForm.style.display = 'none';
+          quoteSuccessPanel.classList.add('show');
+        }
+      });
+
+      successObserver.observe(formSuccessBox, { childList: true, subtree: true, characterData: true });
+    }
+  </script>
+</body>
+</html>

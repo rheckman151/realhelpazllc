@@ -1,0 +1,11 @@
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local dependency/cache folders
+node_modules/
+.npm-cache/
+
+# Temporary Codex/browser artifacts
+.chrome-*/
+.codex-*
